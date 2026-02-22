@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MS 365 Premium Movie Hub</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
+    <style>
+        body { margin: 0; font-family: 'Inter', sans-serif; background: #f3f2f1; color: #323130; }
+        
+        header { 
+            background: #fff; padding: 10px 5%; display: flex; align-items: center; 
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1); position: sticky; top: 0; z-index: 100;
+        }
+
+        /* Microsoft Logo Style */
+        .ms-logo { width: 25px; height: 25px; margin-right: 10px; }
+        
+        .hero { text-align: center; padding: 60px 20px; }
+        h1 { font-size: 35px; background: linear-gradient(90deg, #0078d4, #00eeff); -webkit-background-clip: text; -webkit-text-fill-color: transparent; }
+        
+        .movie-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(180px, 1fr)); gap: 20px; padding: 30px 5%; }
+        .movie-card { background: #fff; border-radius: 10px; overflow: hidden; transition: 0.4s; box-shadow: 0 4px 10px rgba(0,0,0,0.05); }
+        .movie-card:hover { transform: scale(1.1); box-shadow: 0 15px 30px rgba(0,120,212,0.3); }
+        .movie-card img { width: 100%; height: 250px; object-fit: cover; }
+    </style>
+</head>
+<body>
+
+    <header>
+        <img src="https://upload.wikimedia.org/wikipedia/commons/4/44/Microsoft_logo.svg" class="ms-logo" alt="Logo">
+        <span style="font-weight:600; color:#0078d4;">Microsoft 365 Cinema</span>
+    </header>
+
+    <section class="hero">
+        <h1>20,000+ 4K Movies Live</h1>
+        <div style="height:2px; width:100px; background:#00eeff; margin:15px auto;"></div>
+    </section>
+
+    <div class="movie-grid">
+        <div class="movie-card"><img src="https://images.unsplash.com/photo-1536440136628-849c177e76a1?w=400"><div style="padding:10px; text-align:center;">SCI-FI</div></div>
+        <div class="movie-card"><img src="https://images.unsplash.com/photo-1485846234645-a62644f84728?w=400"><div style="padding:10px; text-align:center;">ACTION</div></div>
+        <div class="movie-card"><img src="https://images.unsplash.com/photo-1517604931442-7e0c8ed2963c?w=400"><div style="padding:10px; text-align:center;">LATEST</div></div>
+    </div>
+
+</body>
+</html>
+<button onclick="window.location.href='Marvel.html'" style="background: red; color: white; padding: 15px 30px; border: none; border-radius: 50px; font-weight: bold; cursor: pointer; margin-top: 20px; box-shadow: 0 0 15px rgba(255,0,0,0.5);">
+    CLICK NOW FOR MARVEL
+</button>
+<meta name="description" content="Watch the latest 4K Terror and Marvel movies on The Terror Movies platform.">
+<meta name="keywords" content="The Terror Movies, 4K Movies, Marvel, Avengers, Streaming">
